@@ -1,0 +1,83 @@
+@media (max-width: 768px) {
+    body {
+        height: auto;
+        margin: 30px 0px;
+    }
+   .card-one {
+       width: 90vw;
+       border-radius: 10px 10px 0px 0px;
+       box-shadow: none;
+       div {
+            margin-top: 30px;
+            h1 {
+                font-size: 40px;
+            }
+            h2 {
+                font-size: 20px;
+            }
+            input {
+                background-color: #6f8abc;
+            }
+        }    
+       img {
+           width: 200px;
+           height: 186px;
+       }
+       .fa-cloud-sun {
+           font-size: 70px;
+           top: 30px;
+           right: 40px;
+       }
+       .fa-gift {
+            font-size: 50px;
+            bottom: 10px;
+            left: 30px;
+        }
+        .fa-gifts {
+            font-size: 50px;
+            bottom: 10px;
+            left: 95px;
+        } 
+   }
+   .card-two {
+       width: 90vw;
+       border-radius: 0px 0px 10px 10px;
+       img {
+        top: 100px;
+        right: 50px;  
+    }
+    .star1 {
+        top: 30px;
+        right: 100px;  
+    }
+    .star2 {
+        top: 70px;
+        left: 130px;  
+    }
+    .star3 {
+        top: 250px;
+        left: 20px;  
+    }
+    .star4 {
+        bottom: 40px;
+        left: 200px;  
+    }
+    .rectangulo1 {
+        top: 70px;
+        right: 25px;
+
+    }
+    .rectangulo2 {
+        bottom: 20px;
+        left: 25px;
+    }
+    .circulo1 {
+        top: 30px;
+        left: 30px;
+    }
+    .circulo2 {
+        bottom: 30px;
+        right: 80px;
+    }
+   }
+}

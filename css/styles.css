@@ -1,0 +1,256 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  background: #FFEFBA;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #FFFFFF, #FFEFBA);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card-one {
+  width: 45vw;
+  height: 80vh;
+  background-color: #ecf0fb;
+  border-radius: 10px 0px 0px 10px;
+  position: relative;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.card-one div {
+  margin-top: 60px;
+  margin-left: 20px;
+}
+.card-one div h1 {
+  font-size: 50px;
+  color: #6f8abc;
+}
+.card-one div h2 {
+  font-size: 30px;
+  color: #6f8abc;
+}
+.card-one div p {
+  color: #7F7FD5;
+}
+.card-one div h3 {
+  color: #6f8abc;
+}
+.card-one div input {
+  background-color: #6f8abc;
+}
+.card-one img {
+  width: 250px;
+  height: 236px;
+  position: absolute;
+  bottom: 5px;
+  right: 25px;
+}
+.card-one .fa-cloud-sun {
+  font-size: 80px;
+  color: #FFEFBA;
+  position: absolute;
+  top: 30px;
+  right: 80px;
+}
+.card-one .fa-gift {
+  font-size: 60px;
+  color: #7F7FD5;
+  position: absolute;
+  bottom: 10px;
+  left: 30px;
+}
+.card-one .fa-gifts {
+  font-size: 60px;
+  color: #6f8abc;
+  position: absolute;
+  bottom: 10px;
+  left: 95px;
+}
+
+.card-two {
+  width: 45vw;
+  height: 80vh;
+  background: #2193b0;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #6dd5ed, #2193b0);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 0px 10px 10px 0px;
+  position: relative;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.card-two img {
+  width: 300px;
+  height: 286px;
+  position: absolute;
+  top: 100px;
+  right: 130px;
+}
+.card-two .star1 {
+  font-size: 25px;
+  color: #FFEFBA;
+  position: absolute;
+  opacity: 0.8;
+  top: 50px;
+  right: 120px;
+}
+.card-two .star2 {
+  font-size: 30px;
+  color: #FFEFBA;
+  position: absolute;
+  opacity: 0.8;
+  top: 100px;
+  left: 100px;
+}
+.card-two .star3 {
+  font-size: 25px;
+  color: #FFEFBA;
+  position: absolute;
+  opacity: 0.8;
+  top: 250px;
+  left: 50px;
+}
+.card-two .star4 {
+  font-size: 40px;
+  color: #FFEFBA;
+  position: absolute;
+  opacity: 0.8;
+  bottom: 60px;
+  left: 160px;
+}
+.card-two .rectangulo1 {
+  width: 40px;
+  height: 150px;
+  background-color: #FFEFBA;
+  right: 10px;
+  opacity: 0.8;
+  position: absolute;
+  border-radius: 2px;
+  top: 150px;
+  right: 70px;
+}
+.card-two .rectangulo2 {
+  width: 150px;
+  height: 40px;
+  background-color: #FFEFBA;
+  opacity: 0.8;
+  position: absolute;
+  border-radius: 2px;
+  bottom: 50px;
+  left: -25px;
+}
+.card-two .circulo1 {
+  width: 80px;
+  height: 80px;
+  background-color: #FFEFBA;
+  opacity: 0.8;
+  position: absolute;
+  border-radius: 50%;
+  top: 90px;
+  left: -40px;
+}
+.card-two .circulo2 {
+  width: 30px;
+  height: 30px;
+  background-color: #FFEFBA;
+  opacity: 0.8;
+  position: absolute;
+  border-radius: 50%;
+  bottom: 50px;
+  right: 130px;
+}
+
+@media (max-width: 768px) {
+  body {
+    height: auto;
+    margin: 30px 0px;
+  }
+
+  .card-one {
+    width: 90vw;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: none;
+  }
+  .card-one div {
+    margin-top: 30px;
+  }
+  .card-one div h1 {
+    font-size: 40px;
+  }
+  .card-one div h2 {
+    font-size: 20px;
+  }
+  .card-one div input {
+    background-color: #6f8abc;
+  }
+  .card-one img {
+    width: 200px;
+    height: 186px;
+  }
+  .card-one .fa-cloud-sun {
+    font-size: 70px;
+    top: 30px;
+    right: 40px;
+  }
+  .card-one .fa-gift {
+    font-size: 50px;
+    bottom: 10px;
+    left: 30px;
+  }
+  .card-one .fa-gifts {
+    font-size: 50px;
+    bottom: 10px;
+    left: 95px;
+  }
+
+  .card-two {
+    width: 90vw;
+    border-radius: 0px 0px 10px 10px;
+  }
+  .card-two img {
+    top: 100px;
+    right: 50px;
+  }
+  .card-two .star1 {
+    top: 30px;
+    right: 100px;
+  }
+  .card-two .star2 {
+    top: 70px;
+    left: 130px;
+  }
+  .card-two .star3 {
+    top: 250px;
+    left: 20px;
+  }
+  .card-two .star4 {
+    bottom: 40px;
+    left: 200px;
+  }
+  .card-two .rectangulo1 {
+    top: 70px;
+    right: 25px;
+  }
+  .card-two .rectangulo2 {
+    bottom: 20px;
+    left: 25px;
+  }
+  .card-two .circulo1 {
+    top: 30px;
+    left: 30px;
+  }
+  .card-two .circulo2 {
+    bottom: 30px;
+    right: 80px;
+  }
+}/*# sourceMappingURL=styles.css.map */

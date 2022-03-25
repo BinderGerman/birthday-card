@@ -1,0 +1,149 @@
+.card-one {
+    width: 45vw;
+    height: 80vh;
+    background-color: #ecf0fb;
+    border-radius: 10px 0px 0px 10px;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    div {
+        margin-top: 60px;
+        margin-left: 20px;
+        h1 {
+            font-size: 50px;
+            color: #6f8abc;
+        }
+        h2 {
+            font-size: 30px;
+            color: #6f8abc;
+        }
+        p {
+            color:#7F7FD5;
+        }
+        h3 {
+            color: #6f8abc;
+        }
+        input {
+            background-color: #6f8abc;
+        }
+    }
+    img {
+        width: 250px;
+        height: 236px;
+        position: absolute;
+        bottom: 5px;
+        right: 25px;
+    }
+    .fa-cloud-sun {
+        font-size: 80px;
+        color:  #FFEFBA;
+        position: absolute;
+        top: 30px;
+        right: 80px;
+    }
+    .fa-gift {
+        font-size: 60px;
+        color: #7F7FD5;
+        position: absolute;
+        bottom: 10px;
+        left: 30px;
+    }
+    .fa-gifts {
+        font-size: 60px;
+        color:  #6f8abc;
+        position: absolute;
+        bottom: 10px;
+        left: 95px;
+    } 
+}
+
+.card-two {
+    width: 45vw;
+    height: 80vh;
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 0px 10px 10px 0px;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    img {
+        width: 300px;
+        height: 286px;
+        position: absolute;
+        top: 100px;
+        right: 130px;  
+    }
+    .star1 {
+        font-size: 25px;
+        color:  #FFEFBA;
+        position: absolute;
+        opacity: 0.8;
+        top: 50px;
+        right: 120px;  
+    }
+    .star2 {
+        font-size: 30px;
+        color: #FFEFBA;
+        position: absolute;
+        opacity: 0.8;
+        top: 100px;
+        left: 100px;  
+    }
+    .star3 {
+        font-size: 25px;
+        color:  #FFEFBA;
+        position: absolute;
+        opacity: 0.8;
+        top: 250px;
+        left: 50px;  
+    }
+    .star4 {
+        font-size: 40px;
+        color: #FFEFBA;
+        position: absolute;
+        opacity: 0.8;
+        bottom: 60px;
+        left: 160px;  
+    }
+    .rectangulo1 {
+        width: 40px;
+        height: 150px;
+        background-color:  #FFEFBA;
+        right: 10px;;
+        opacity: 0.8;
+        position: absolute;
+        border-radius: 2px;
+        top: 150px;
+        right: 70px;
+
+    }
+    .rectangulo2 {
+        width: 150px;
+        height: 40px;
+        background-color: #FFEFBA;
+        opacity: 0.8;
+        position: absolute;
+        border-radius: 2px;
+        bottom: 50px;
+        left: -25px;
+    }
+    .circulo1 {
+        width: 80px;
+        height: 80px;
+        background-color: #FFEFBA;
+        opacity: 0.8;
+        position: absolute;
+        border-radius: 50%;
+        top: 90px;
+        left: -40px;
+    }
+    .circulo2 {
+        width: 30px;
+        height: 30px;
+        background-color:  #FFEFBA;
+        opacity: 0.8;
+        position: absolute;
+        border-radius: 50%;
+        bottom: 50px;
+        right: 130px;
+    }
+}
