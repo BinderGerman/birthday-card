@@ -250,7 +250,7 @@ body {
     opacity: 0%;
   }
 }
-@media (min-width: 480px) {
+@media (min-width: 480px) and (orientation: landscape) {
   .frame .oti {
     width: 50%;
   }
@@ -259,6 +259,7 @@ body {
   body {
     flex-direction: row;
     height: 100vh;
+    margin: 0%;
   }
 
   .card-one {
@@ -273,21 +274,18 @@ body {
   .card-one .first-block {
     height: 50%;
     margin-top: 0;
+    padding-top: 10px;
   }
   .card-one .second-block {
     height: 50%;
     display: flex;
     flex-direction: row;
-    /* position: relative; */
     align-items: flex-end;
   }
   .card-one .second-block .presents {
     visibility: visible;
     width: 50%;
     font-size: 60px;
-    /* position: absolute;
-    bottom: 0%;
-    left: 0%; */
     margin-bottom: 0%;
   }
   .card-one .second-block .presents .fa-gift {
@@ -300,9 +298,6 @@ body {
   }
   .card-one .second-block .frame {
     width: 50%;
-    /* position: absolute;
-    bottom: 0%;
-    right: 0%; */
   }
   .card-one .second-block .frame h1 {
     font-family: "Poppins", sans-serif;

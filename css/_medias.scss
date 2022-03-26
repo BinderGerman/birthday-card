@@ -1,16 +1,16 @@
-@media (min-width: 480px) {
+@media (min-width: 480px) and (orientation: landscape) {
     .frame {
         .oti {
             width: 50%;
         }
-    }
-  
+    }  
 }
 
 @media (min-width: 768px) {
     body {
         flex-direction: row;
         height: 100vh;
+        margin: 0%;
     }
     .card-one {
         width: 45%;
@@ -23,20 +23,17 @@
         .first-block {
             height: 50%;
             margin-top: 0;
+            padding-top: 10px;
         }
         .second-block {
             height: 50%;
             display: flex;
             flex-direction: row;
-            /* position: relative; */
             align-items: flex-end;
             .presents {
                 visibility: visible;
                 width: 50%;
                 font-size: 60px;
-                /* position: absolute;
-                bottom: 0%;
-                left: 0%; */
                 margin-bottom: 0%;
                 .fa-gift {
                     color: #75c3aa;
@@ -49,9 +46,6 @@
             }
             .frame {
                 width: 50%;
-                /* position: absolute;
-                bottom: 0%;
-                right: 0%; */
                 h1 {
                     font-family: 'Poppins', sans-serif;
                     color: #7093d0;
