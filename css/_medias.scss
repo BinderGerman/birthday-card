@@ -1,83 +1,78 @@
-@media (max-width: 768px) {
-    body {
-        height: auto;
-        margin: 30px 0px;
-    }
-   .card-one {
-       width: 90vw;
-       border-radius: 10px 10px 0px 0px;
-       box-shadow: none;
-       div {
-            margin-top: 30px;
-            h1 {
-                font-size: 40px;
-            }
-            h2 {
-                font-size: 20px;
-            }
-            input {
-                background-color: #6f8abc;
-            }
-        }    
-       img {
-           width: 200px;
-           height: 186px;
-       }
-       .fa-cloud-sun {
-           font-size: 70px;
-           top: 30px;
-           right: 40px;
-       }
-       .fa-gift {
-            font-size: 50px;
-            bottom: 10px;
-            left: 30px;
+@media (min-width: 480px) {
+    .frame {
+        .oti {
+            width: 50%;
         }
-        .fa-gifts {
-            font-size: 50px;
-            bottom: 10px;
-            left: 95px;
-        } 
-   }
-   .card-two {
-       width: 90vw;
-       border-radius: 0px 0px 10px 10px;
-       img {
-        top: 100px;
-        right: 50px;  
     }
-    .star1 {
-        top: 30px;
-        right: 100px;  
-    }
-    .star2 {
-        top: 70px;
-        left: 130px;  
-    }
-    .star3 {
-        top: 250px;
-        left: 20px;  
-    }
-    .star4 {
-        bottom: 40px;
-        left: 200px;  
-    }
-    .rectangulo1 {
-        top: 70px;
-        right: 25px;
+  
+}
 
+@media (min-width: 768px) {
+    body {
+        flex-direction: row;
+        height: 100vh;
     }
-    .rectangulo2 {
-        bottom: 20px;
-        left: 25px;
+    .card-one {
+        width: 45%;
+        height: 80vh;
+        border-radius: 10px 0px 0px 10px;
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+        .flag-left {
+            visibility: hidden;
+        }
+        .first-block {
+            height: 50%;
+            margin-top: 0;
+        }
+        .second-block {
+            height: 50%;
+            display: flex;
+            flex-direction: row;
+            /* position: relative; */
+            align-items: flex-end;
+            .presents {
+                visibility: visible;
+                width: 50%;
+                font-size: 60px;
+                /* position: absolute;
+                bottom: 0%;
+                left: 0%; */
+                margin-bottom: 0%;
+                .fa-gift {
+                    color: #75c3aa;
+                    left: 8%;
+                }
+                .fa-gifts {
+                    color:#fece58;
+                    left: 25%;
+                }
+            }
+            .frame {
+                width: 50%;
+                /* position: absolute;
+                bottom: 0%;
+                right: 0%; */
+                h1 {
+                    font-family: 'Poppins', sans-serif;
+                    color: #7093d0;
+                    font-size: 35px;
+                    text-align: center;
+                }
+                .oti {
+                    width: 100%;
+                }
+            }
+        }
     }
-    .circulo1 {
-        top: 30px;
-        left: 30px;
+    .card-two {
+        width: 45%;
+        height: auto;
+        height: 80vh;
+        border-radius: 0px 10px 10px 0px;
+        .zenon {
+            width: 60%;
+            top: 25%;
+            left: 20%;
+        }
     }
-    .circulo2 {
-        bottom: 30px;
-        right: 80px;
-    }
-   }
 }

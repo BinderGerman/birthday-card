@@ -5,9 +5,8 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
   width: 100vw;
-  height: 100vh;
+  height: auto;
   background: #FFEFBA;
   /* fallback for old browsers */
   /* Chrome 10-25, Safari 5.1-6 */
@@ -16,241 +15,314 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 5% 0%;
 }
 
 .card-one {
-  width: 45vw;
-  height: 80vh;
-  background-color: #ecf0fb;
-  border-radius: 10px 0px 0px 10px;
+  width: 90vw;
+  height: auto;
+  background: #ecf0fb;
+  border-radius: 10px 10px 0px 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   position: relative;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.card-one div {
-  margin-top: 60px;
-  margin-left: 20px;
-}
-.card-one div h1 {
-  font-size: 50px;
-  color: #6f8abc;
-}
-.card-one div h2 {
-  font-size: 30px;
-  color: #6f8abc;
-}
-.card-one div p {
-  color: #7F7FD5;
-}
-.card-one div h3 {
-  color: #6f8abc;
-}
-.card-one div input {
-  background-color: #6f8abc;
-}
-.card-one img {
-  width: 250px;
-  height: 236px;
+.card-one .flag-left {
+  width: 40%;
   position: absolute;
-  bottom: 5px;
-  right: 25px;
+  top: 0%;
+  left: 0%;
 }
 .card-one .fa-cloud-sun {
   font-size: 80px;
-  color: #FFEFBA;
+  color: #fece58;
   position: absolute;
-  top: 30px;
-  right: 80px;
+  top: 5%;
+  right: 5%;
+  -webkit-animation: start 4s infinite;
+          animation: start 4s infinite;
 }
-.card-one .fa-gift {
-  font-size: 60px;
-  color: #7F7FD5;
-  position: absolute;
-  bottom: 10px;
-  left: 30px;
+.card-one .first-block {
+  width: 100%;
+  margin-top: 25%;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: "Poppins", sans-serif;
+  color: #7093d0;
 }
-.card-one .fa-gifts {
-  font-size: 60px;
-  color: #6f8abc;
-  position: absolute;
-  bottom: 10px;
-  left: 95px;
+.card-one .first-block input {
+  width: 180px;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 20px;
+  background-color: #ecf0fb;
+  border: #7093d0 2px solid;
+}
+.card-one .first-block input :focus {
+  border: #2193b0 2px solid;
+}
+.card-one .first-block button {
+  width: 180px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #7093d0;
+  margin-top: 15px;
+  border: none;
+  color: #FFFFFF;
+  transition: all 0.5s;
+}
+.card-one .first-block button :hover {
+  background-color: #2193b0;
+  color: #FFFFFF;
+}
+.card-one .second-block {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.card-one .second-block .presents {
+  visibility: hidden;
+}
+.card-one .second-block .frame {
+  width: 100%;
+  align-items: center;
+}
+.card-one .second-block .frame h1 {
+  font-family: "Poppins", sans-serif;
+  color: #7093d0;
+  font-size: 40px;
+}
+.card-one .second-block .frame .oti {
+  width: 100%;
+  height: 93%;
 }
 
 .card-two {
-  width: 45vw;
-  height: 80vh;
+  width: 90vw;
+  height: 700px;
   background: #2193b0;
   /* fallback for old browsers */
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to bottom, #6dd5ed, #2193b0);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  border-radius: 0px 10px 10px 0px;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
   position: relative;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.card-two img {
-  width: 300px;
-  height: 286px;
+.card-two .flag-right {
+  width: 40%;
   position: absolute;
-  top: 100px;
-  right: 130px;
+  top: 0%;
+  right: 0%;
 }
-.card-two .star1 {
+.card-two .zenon {
+  width: 80%;
+  position: absolute;
+  top: 25%;
+  left: 10%;
+}
+.card-two .star-one {
   font-size: 25px;
-  color: #FFEFBA;
+  color: #fece58;
   position: absolute;
-  opacity: 0.8;
-  top: 50px;
-  right: 120px;
+  top: 30%;
+  right: 25%;
+  -webkit-animation: start 4s infinite;
+          animation: start 4s infinite;
 }
-.card-two .star2 {
+.card-two .star-two {
   font-size: 30px;
-  color: #FFEFBA;
+  color: #f18fba;
   position: absolute;
-  opacity: 0.8;
-  top: 100px;
-  left: 100px;
+  top: 20%;
+  left: 20%;
+  -webkit-animation: start 4s infinite;
+          animation: start 4s infinite;
 }
-.card-two .star3 {
+.card-two .star-three {
   font-size: 25px;
-  color: #FFEFBA;
+  color: #fece58;
   position: absolute;
-  opacity: 0.8;
-  top: 250px;
-  left: 50px;
+  top: 60%;
+  left: 10%;
+  -webkit-animation: start 4s infinite;
+          animation: start 4s infinite;
 }
-.card-two .star4 {
-  font-size: 40px;
-  color: #FFEFBA;
+.card-two .star-four {
+  font-size: 35px;
+  color: #f095bb;
   position: absolute;
-  opacity: 0.8;
-  bottom: 60px;
-  left: 160px;
+  bottom: 15%;
+  right: 30%;
+  -webkit-animation: start 4s infinite;
+          animation: start 4s infinite;
 }
-.card-two .rectangulo1 {
-  width: 40px;
-  height: 150px;
-  background-color: #FFEFBA;
-  right: 10px;
-  opacity: 0.8;
-  position: absolute;
-  border-radius: 2px;
-  top: 150px;
-  right: 70px;
-}
-.card-two .rectangulo2 {
+.card-two .rectangle-one {
   width: 150px;
   height: 40px;
-  background-color: #FFEFBA;
-  opacity: 0.8;
+  background-color: #fece58;
+  opacity: 0.9;
   position: absolute;
-  border-radius: 2px;
-  bottom: 50px;
-  left: -25px;
+  border-radius: 3px;
+  bottom: 28%;
+  right: 5%;
 }
-.card-two .circulo1 {
+.card-two .rectangle-one p {
+  font-family: "Poppins", sans-serif;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 40PX;
+  text-align: center;
+}
+.card-two .rectangle-two {
+  width: 150px;
+  height: 40px;
+  background-color: #75c3aa;
+  opacity: 0.9;
+  position: absolute;
+  border-radius: 3px;
+  bottom: 10%;
+  left: 10%;
+}
+.card-two .rectangle-two p {
+  font-family: "Poppins", sans-serif;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 40px;
+  text-align: center;
+}
+.card-two .circle-one {
   width: 80px;
   height: 80px;
-  background-color: #FFEFBA;
-  opacity: 0.8;
+  background-color: #f4b7ae;
+  opacity: 0.9;
   position: absolute;
   border-radius: 50%;
-  top: 90px;
-  left: -40px;
+  top: 5%;
+  left: 30%;
 }
-.card-two .circulo2 {
+.card-two .circle-one p {
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 80px;
+  text-align: center;
+}
+.card-two .circle-two {
   width: 30px;
   height: 30px;
-  background-color: #FFEFBA;
-  opacity: 0.8;
+  background-color: #75c3aa;
+  opacity: 0.9;
   position: absolute;
   border-radius: 50%;
-  bottom: 50px;
-  right: 130px;
+  bottom: 5%;
+  right: 10%;
+  -webkit-animation: start 4s infinite;
+          animation: start 4s infinite;
 }
 
-@media (max-width: 768px) {
+@-webkit-keyframes start {
+  0% {
+    opacity: 0%;
+  }
+  25% {
+    transform: translateY(-15px);
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0%;
+  }
+}
+
+@keyframes start {
+  0% {
+    opacity: 0%;
+  }
+  25% {
+    transform: translateY(-15px);
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0%;
+  }
+}
+@media (min-width: 480px) {
+  .frame .oti {
+    width: 50%;
+  }
+}
+@media (min-width: 768px) {
   body {
-    height: auto;
-    margin: 30px 0px;
+    flex-direction: row;
+    height: 100vh;
   }
 
   .card-one {
-    width: 90vw;
-    border-radius: 10px 10px 0px 0px;
-    box-shadow: none;
+    width: 45%;
+    height: 80vh;
+    border-radius: 10px 0px 0px 10px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
   }
-  .card-one div {
-    margin-top: 30px;
+  .card-one .flag-left {
+    visibility: hidden;
   }
-  .card-one div h1 {
-    font-size: 40px;
+  .card-one .first-block {
+    height: 50%;
+    margin-top: 0;
   }
-  .card-one div h2 {
-    font-size: 20px;
+  .card-one .second-block {
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    /* position: relative; */
+    align-items: flex-end;
   }
-  .card-one div input {
-    background-color: #6f8abc;
+  .card-one .second-block .presents {
+    visibility: visible;
+    width: 50%;
+    font-size: 60px;
+    /* position: absolute;
+    bottom: 0%;
+    left: 0%; */
+    margin-bottom: 0%;
   }
-  .card-one img {
-    width: 200px;
-    height: 186px;
+  .card-one .second-block .presents .fa-gift {
+    color: #75c3aa;
+    left: 8%;
   }
-  .card-one .fa-cloud-sun {
-    font-size: 70px;
-    top: 30px;
-    right: 40px;
+  .card-one .second-block .presents .fa-gifts {
+    color: #fece58;
+    left: 25%;
   }
-  .card-one .fa-gift {
-    font-size: 50px;
-    bottom: 10px;
-    left: 30px;
+  .card-one .second-block .frame {
+    width: 50%;
+    /* position: absolute;
+    bottom: 0%;
+    right: 0%; */
   }
-  .card-one .fa-gifts {
-    font-size: 50px;
-    bottom: 10px;
-    left: 95px;
+  .card-one .second-block .frame h1 {
+    font-family: "Poppins", sans-serif;
+    color: #7093d0;
+    font-size: 35px;
+    text-align: center;
+  }
+  .card-one .second-block .frame .oti {
+    width: 100%;
   }
 
   .card-two {
-    width: 90vw;
-    border-radius: 0px 0px 10px 10px;
+    width: 45%;
+    height: auto;
+    height: 80vh;
+    border-radius: 0px 10px 10px 0px;
   }
-  .card-two img {
-    top: 100px;
-    right: 50px;
-  }
-  .card-two .star1 {
-    top: 30px;
-    right: 100px;
-  }
-  .card-two .star2 {
-    top: 70px;
-    left: 130px;
-  }
-  .card-two .star3 {
-    top: 250px;
-    left: 20px;
-  }
-  .card-two .star4 {
-    bottom: 40px;
-    left: 200px;
-  }
-  .card-two .rectangulo1 {
-    top: 70px;
-    right: 25px;
-  }
-  .card-two .rectangulo2 {
-    bottom: 20px;
-    left: 25px;
-  }
-  .card-two .circulo1 {
-    top: 30px;
-    left: 30px;
-  }
-  .card-two .circulo2 {
-    bottom: 30px;
-    right: 80px;
+  .card-two .zenon {
+    width: 60%;
+    top: 25%;
+    left: 20%;
   }
 }/*# sourceMappingURL=styles.css.map */
